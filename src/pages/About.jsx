@@ -27,8 +27,15 @@ export default function About() {
         <section className="mb-10">
           <div className="text-[13px] font-semibold text-[#1f5c52] mb-3">03 · 怎么找到我</div>
           <p className="text-[15px] leading-[1.9] text-[#424245]">
-            这是个人站点，联系方式按需要再挂。先看内容：首页那三块就是我平时交付的东西。
+            有具体任务想聊，直接发邮件，标题写清来意，我看到会回。这个站没有留言表单，
+            不经过任何第三方服务，也不会把你的信息转给别人。
           </p>
+          <a
+            href="mailto:387782861@qq.com"
+            className="inline-block mt-3 text-[15px] font-medium text-[#1f5c52] underline underline-offset-4 hover:text-[#17473f]"
+          >
+            387782861@qq.com
+          </a>
         </section>
       </div>
     </div>
