@@ -28,7 +28,8 @@ export default function About() {
           <div className="text-[13px] font-semibold text-[#1f5c52] mb-3">03 · 怎么找到我</div>
           <p className="text-[15px] leading-[1.9] text-[#424245]">
             有具体任务想聊，加微信或发邮件都行，说清来意，我看到会回。这个站没有留言表单，
-            不经过任何第三方服务，也不会把你的信息转给别人。
+            不经过任何第三方服务。点邮箱会自动填好主题；只有带「网站反馈」标记的来信会进选题池，
+            其它来信不读取、不归档。
           </p>
           <div className="mt-4 space-y-2 text-[15px] leading-[1.9]">
             <div>
@@ -39,11 +40,12 @@ export default function About() {
             <div>
               <span className="text-[#6e6e73]">邮箱　</span>
               <a
-                href="mailto:387782861@qq.com"
+                href="mailto:387782861@qq.com?subject=%E3%80%90%E7%BD%91%E7%AB%99%E5%8F%8D%E9%A6%88%E3%80%91"
                 className="font-medium text-[#1f5c52] underline underline-offset-4 hover:text-[#17473f]"
               >
                 387782861@qq.com
               </a>
+              <span className="text-[13px] text-[#86868b]">　点开自动填「网站反馈」主题</span>
             </div>
           </div>
         </section>
