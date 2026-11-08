@@ -2,9 +2,9 @@
 
 @theme {
   /* Apple light palette — primary accent is Apple blue */
-  --color-neon-purple: #0071e3;
-  --color-neon-blue: #0071e3;
-  --color-neon-cyan: #00c7be;
+  --color-neon-purple: #1f5c52;
+  --color-neon-blue: #1f5c52;
+  --color-neon-cyan: #2f7a6c;
   /* repointed surface tokens: every bg-dark-* usage reskins automatically */
   --color-dark-bg: #fbfbfd;
   --color-dark-card: #ffffff;
@@ -37,16 +37,15 @@ body {
 }
 
 .glass:hover {
-  border-color: rgba(0, 113, 227, 0.35);
-  box-shadow: 0 8px 28px rgba(0, 113, 227, 0.10);
+  border-color: rgba(31, 92, 82, 0.35);
+  box-shadow: 0 8px 28px rgba(31, 92, 82, 0.10);
 }
 
 /* Gradient text — restrained blue→teal */
 .gradient-text {
-  background: linear-gradient(135deg, #0071e3, #00c7be);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #1f5c52;
+  -webkit-text-fill-color: #1f5c52;
+  background: none;
 }
 
 /* RIA section styling (light) */
@@ -61,7 +60,7 @@ body {
 }
 
 .ria-section:hover {
-  border-color: rgba(0, 113, 227, 0.35);
+  border-color: rgba(31, 92, 82, 0.35);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
@@ -77,7 +76,7 @@ body {
 /* Typography for memoir content (light) */
 .memoir-content h1 { font-size: 1.5rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: #1d1d1f; }
 .memoir-content h2 { font-size: 1.25rem; font-weight: 700; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1d1d1f; }
-.memoir-content h3 { font-size: 1.125rem; font-weight: 700; margin-top: 1.25rem; margin-bottom: 0.5rem; color: #0071e3; }
+.memoir-content h3 { font-size: 1.125rem; font-weight: 700; margin-top: 1.25rem; margin-bottom: 0.5rem; color: #1f5c52; }
 .memoir-content p { margin-bottom: 1rem; line-height: 1.75; color: #424245; }
 .memoir-content strong { color: #1d1d1f; font-weight: 600; }
 .memoir-content ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 1rem; color: #424245; }
@@ -97,7 +96,7 @@ body {
 .apple-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
-  border-color: rgba(0, 113, 227, 0.28);
+  border-color: rgba(31, 92, 82, 0.28);
 }
 
 .eyebrow {
@@ -119,18 +118,18 @@ body {
   display: inline-flex;
   align-items: center;
   gap: .5rem;
-  background: #0071e3;
+  background: #1f5c52;
   color: #fff;
   border-radius: 980px;
   padding: .7rem 1.5rem;
   font-weight: 600;
   font-size: .95rem;
   transition: background .25s ease, transform .25s ease;
-  box-shadow: 0 6px 18px rgba(0, 113, 227, .25);
+  box-shadow: 0 6px 18px rgba(31, 92, 82, .25);
 }
 
 .btn-primary:hover {
-  background: #0077ed;
+  background: #17473f;
   transform: translateY(-1px);
 }
 
@@ -138,8 +137,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: .5rem;
-  background: rgba(0, 113, 227, 0.08);
-  color: #0071e3;
+  background: rgba(31, 92, 82, 0.08);
+  color: #1f5c52;
   border-radius: 980px;
   padding: .7rem 1.5rem;
   font-weight: 600;
@@ -148,13 +147,11 @@ body {
 }
 
 .btn-secondary:hover {
-  background: rgba(0, 113, 227, 0.14);
+  background: rgba(31, 92, 82, 0.14);
 }
 
 .hero-wash {
-  background:
-    radial-gradient(900px 480px at 82% -12%, rgba(0, 113, 227, 0.07), transparent 60%),
-    radial-gradient(700px 420px at -5% 8%, rgba(0, 199, 190, 0.06), transparent 55%);
+  background: #fbfbfd;
 }
 
 /* Scrollbar (light) */
