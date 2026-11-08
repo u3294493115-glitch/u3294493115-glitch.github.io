@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="text-[13px] text-[#6e6e73] space-y-2">
             <div><Link to="/" className="hover:text-[#1f5c52]">首页</Link></div>
             <div><Link to="/about" className="hover:text-[#1f5c52]">关于我</Link></div>
-            <div><a href="mailto:387782861@qq.com" className="hover:text-[#1f5c52]">联系我</a></div>
+            <div><Link to="/about" className="hover:text-[#1f5c52]">联系我</Link></div>
           </div>
         </div>
         <div className="mt-8 pt-5 border-t border-black/[.06] text-[12px] text-[#86868b] leading-relaxed">
