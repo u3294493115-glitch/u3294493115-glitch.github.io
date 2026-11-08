@@ -1,3 +1,9 @@
+> **本仓已改造为「KKK的AI修炼场」**（kk 的个人站点）。
+> 原项目：kenyanghui/chaiAI，作者 杨辉，MIT License；在此保留原作者署名。
+> 首页与关于页为个人品牌内容，其余页面仍为原项目内容，未挂在导航上。
+
+---
+
 # 玄龙·拆AI（chaiAI）— 小蛮腰·拆AI 课程阵地
 
 > [chai.aibay.asia](https://chai.aibay.asia/) 的源码仓：拆书帮广州小蛮腰分舵「AI 拆书工作坊」的课程阵地——
